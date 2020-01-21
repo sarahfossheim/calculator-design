@@ -60,6 +60,30 @@ body {
   box-shadow: 5px 5px 15px 0px rgba(6,76,92,0.25);
 }
 
+.label {
+  position: absolute;
+  width: 110px;
+  height: 35px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  
+  top: 32px;
+  left: 70px;
+  
+  background-color: #959FA1;
+  background-image: radial-gradient(#8D9FA9, #959FA1);
+  border-radius 5px;
+  box-shadow: -1px 0.5px 2px rgba(0,0,0,0.1) inset;
+  
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.label p {
+  margin-top: 0.3em;
+}
+
 .output {
   position: absolute;
   background-color: #0B0301;
