@@ -170,6 +170,10 @@ body {
   top: -0.15em;
 }
 
+.key.number .key-content .decimal {
+  position: relative;
+  top: -0.25em;
+}
 
 .key.general {
   background-color: #823B03;
