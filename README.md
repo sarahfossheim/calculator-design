@@ -6,7 +6,7 @@ It's not functional at this point, but I might add some JavaScript to make it wo
 
 **The result**
 
-![final result](assets/result.png)
+![final result](assets/abatron803-css.png)
 
 **Important to note**
 This is the Abatron 803 from 1976: https://www.calculator.org/calculators/Abatron_803.html
