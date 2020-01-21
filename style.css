@@ -1,0 +1,194 @@
+body {
+  background-color: #BAE0D5;
+  background-image: linear-gradient(#097F97, #07667C);
+  padding-bottom: 0.5em;
+}
+
+.calculator {
+  background-color: #C1C2B0;
+  background: linear-gradient(#C8C9B9, #C0C1AF),
+    linear-gradient(
+      #D1D1C5 25%,
+      #484939 27%,
+      #87877B 30%,
+      #87877B 32%,
+      #E7E7DD 33%,
+      #D1D1C5 33.5%,
+      #D1D1C5 38%,
+      #484939 40%,
+      #87877B 43%,
+      #87877B 45%,
+      #E7E7DD 46%,
+      #D1D1C5 46.5%,
+      #D1D1C5 51%,
+      #484939 53%,
+      #87877B 56%,
+      #87877B 58%,
+      #E7E7DD 59%,
+      #D1D1C5 59.5%,
+      #C8C9B9 100%
+    );
+  background-size: 100%, 100% 80px;
+  background-position: 0 80px, top left;
+  background-repeat: no-repeat;
+  display: block;
+  width: 550px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative;
+  
+  box-shadow: 5px 5px 15px 0px rgba(6,76,92,0.25);
+}
+
+.output {
+  position: absolute;
+  background-color: #0B0301;
+  width: 448px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 90px;
+  border-radius: 1px;
+  padding: 0 30px;
+  padding-top: 0.6em;
+  box-sizing: border-box;
+  font-family: 'Odibee Sans', cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.65em;
+}
+
+.output p {
+  color: #FFAB25;
+  text-align: right;
+  font-size: 2em;
+  text-shadow: 0px 0px 3px rgba(218, 98, 23, 0.9);
+}
+
+.indent {
+  display: block;
+  position: relative;
+  top: 270px;
+  width: 458px;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  
+  background-image: linear-gradient(82deg, rgba(231, 232, 226, 0.75), rgba(125,125,115,0.5));
+}
+
+.keypad {
+  position: absolute;
+  top: 4px;
+  display: block;
+  width: 448px;
+  background-color: black;
+  padding: 2px 0 0 2px;
+  border-radius: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.key {
+  cursor: pointer;
+  
+  display: inline-block;
+  width: 110px;
+  height: 110px;  
+  margin: 0;
+  margin-right: -2px;
+  margin-bottom: 2px;
+}
+
+.key .key-content {
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  font-family: "Syncopate", sans-serif;
+  font-size: 3em;
+  border-radius: 33%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.key.number {
+  background-color: #1C1E19;
+  background: linear-gradient(
+    90deg,
+    #1C1E19,
+    #7A8277 80%);
+  background-size: 100%;
+  background-position: top left;
+
+}
+
+.key.number .key-content {
+  background-color: #848982;
+  background: radial-gradient(
+    #434841,
+    #848982 80%);
+  background-size: 200% 300%;
+  background-position: center left;
+  color: #CBCDCA;
+}
+
+.key.operation {
+  background-color: #9C9684;
+  background: linear-gradient(
+    90deg,
+    #9C9684,
+    #FFFEF9 80%);
+  background-size: 100%;
+  background-position: top left;
+
+}
+
+.key.operation .key-content {
+  background-color: #FFFFFD;
+  background: radial-gradient(
+    #BDB7A1,
+    #FFFFFD 80%);
+  background-size: 200% 300%;
+  background-position: center left;
+  color: #555355;
+}
+
+.key.operation .key-content .multiplication {
+  font-size: 0.7em;
+  position: relative;
+  top: -0.15em;
+}
+
+
+.key.general {
+  background-color: #823B03;
+  background: linear-gradient(
+    90deg,
+    #823B03,
+    #E69238 80%);
+  background-size: 100%;
+  background-position: top left;
+}
+
+.key.general .key-content {
+  background-color: #E98D44;
+  background: radial-gradient(
+    #BE530D,
+    #E98D44 80%);
+  background-size: 200% 300%;
+  background-position: center left;
+  color: #CFDAD6;
+  font-size: 2em;
+  padding-top: 35px;
+}
