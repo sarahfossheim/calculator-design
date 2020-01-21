@@ -9,9 +9,11 @@ It's not functional at this point, but I might add some JavaScript to make it wo
 ![final result](assets/result.png)
 
 **Important to note**
-I thought the image I found was of a real calculator, so I replicating its design entirely in CSS. But as it turns out, after finishing the project I found out it was actually a design made by someone on Dribble, so I need to give credit here: (https://dribbble.com/shots/499001-Abatron-Calculator-Buttons).
+This is the Abatron 803 from 1976: https://www.calculator.org/calculators/Abatron_803.html
 
-However, that design based on (and almost the same as) a real calculator from 1976, the Abatron 803: https://www.calculator.org/calculators/Abatron_803.html
+The original image I stumbled upon (which I thought was a real calculator too) and inspired my design by turned out to be a photoshop creation by https://dribbble.com/shots/499001-Abatron-Calculator-Buttons. That design was an interpretation of a real calculator from 1975, called the Abatron 803. 
+
+However, I have since edited my design (fonts, colors, sizing, spacing, patterns) to reflect the design of the real Abatron 803.
 
 **The original**
 
