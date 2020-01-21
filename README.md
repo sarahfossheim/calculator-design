@@ -15,5 +15,5 @@ However, that design based on (and almost the same as) a real calculator from 19
 
 **The original**
 
-![original Abatron 803 calculator](assets/original.jpg)
+![original Abatron 803 calculator](assets/abatron.jpg)
 
